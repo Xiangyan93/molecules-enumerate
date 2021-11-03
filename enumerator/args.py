@@ -13,3 +13,8 @@ class GenerateArgs(Tap):
     """The types of molecules to be generated."""
     n_heavy: int = 15
     """The cutoff of the number of heavy atoms."""
+
+
+class ExportArgs(Tap):
+    n_heavy: List[int] = []
+    """"""
